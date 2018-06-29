@@ -3,7 +3,9 @@ class Show < ActiveRecord::Base
   belongs_to :network
 
   def build_network
-    3.times { |x| wooo  binding.pry}
+    3.times do |x| 
+      wooo  binding.pry
+    end
 
   end
 
