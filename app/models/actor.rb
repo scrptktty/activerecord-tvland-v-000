@@ -11,6 +11,6 @@ class Actor < ActiveRecord::Base
     self.characters.each do |c|
       character = c.name
       show = c.show
-      puts
+      puts "#{character} - #{show}"
   end
 end
