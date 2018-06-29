@@ -3,5 +3,7 @@ class Character < ActiveRecord::Base
   belongs_to :actor
 
   def catchphrase
+    # wtf
   end
+
 end
