@@ -8,11 +8,6 @@ class Actor < ActiveRecord::Base
   end
 
   def list_roles
-    self.characters.each do |c|
-      binding.pry
-      character = c.name
-      show = c.show
-      puts "#{character} - #{show}"
-    end
+    puts "self.characters[0].name - self.characters[0].show"
   end
 end
