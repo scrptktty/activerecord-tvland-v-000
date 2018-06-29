@@ -12,5 +12,6 @@ class Actor < ActiveRecord::Base
       character = c.name
       show = c.show
       puts "#{character} - #{show}"
+    end
   end
 end
