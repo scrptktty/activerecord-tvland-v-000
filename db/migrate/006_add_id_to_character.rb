@@ -3,6 +3,6 @@ class AddIDtoCharacter < ActiveRecord::Migration[4.2]
   #a new migration, and then in the change method,
   #we make the change.
   def change
-    add_column :character, :network_id, :integer
+    add_column :character, :character_id, :integer
   end
 end
